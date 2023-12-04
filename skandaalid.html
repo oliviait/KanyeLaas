@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="skandaalid.css">
 </head>
 <body>
+    <script src = "kanye.js"></script>
     <header>
-        <img src="kanye_logo.png" alt="Kanye West Logo" class="logo">
+        <img src="kanye_logo.png" alt="Kanye West Logo" class="logo" id="logo" onclick="muudaLogo()">
         <h1 id="h1">Kanye West</h1>
     </header>
     <section>
@@ -47,17 +48,17 @@
     </section>
 
     <section>
-        <h2>Kloonimine</h2>
+        <h2 id="kloon" onclick="klooniTeksti()">Kloonimine</h2>
         <p>Paljud on arvamusel, et Kanye West, keda praegu tihti uudistes näeme, ei ole tema ise, vaid on kloon. Inimesed väidavad, et tema nägu, kehaesitus ja iseloom ei ole endised. Kuulujutt kloonimisest on levinud juba alates 2016. aastast, kui West sõnas "if i disappear [and] come back it’s not me, so how can it be [a] conspiracy". See, kas kuulujutt on tõsi, võibki jääda saladuseks.</p>
         <img src="kloon.jpg" alt="Skandaal 5">
     </section>
 
     <section>
-        <h2>Illuminati</h2>
+        <h2 onclick="mangiMuusika()">Illuminati</h2>
         <p>Arvatakse, et Illuminati on mõjuvõimsate kuulsuste kogum, kes kontrollivad kogu maailma. Arvatakse, et sinna kuuluvad kõik rikkad ja mõjuvõimsad inimesed, nende hulgas ja Kanye West. Kuigi West on väitnud, et pole grupiga seotud, usuvad paljud siiski vastupidist.</p>
         <img src="illuminati.jpg" alt="Skandaal 6">
     </section>
-
+    <audio src="illuminati.mp3" id="illuminati"></audio>
     <footer>
         <img src="kanye_signature.png" alt="Kanye West Signature"><br>
         &copy; 2023 Kanye West Page
