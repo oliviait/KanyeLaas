@@ -1,2 +1,2 @@
 # KanyeLaas
-veebilehe grupitöö repo
+Veebilehe grupitöö repositoorium.
