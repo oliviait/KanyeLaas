@@ -16,3 +16,4 @@ function mangiMuusika() {
     "use strict";
     document.getElementById("illuminati").play();
 }
+//ise kirjutatud
